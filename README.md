@@ -102,6 +102,39 @@ Ship? Drop in. No new account, no joining their server.
 
 ---
 
+## 🔊 Audio that earns your headset
+
+Most voice apps squash you down to a compressed, walkie-talkie crackle. Shipfall doesn't.
+Every Deck carries **high-bitrate Opus voice up to ~320 kbps** with **built-in noise
+suppression** — so a whisper stays a whisper and your callouts land clean, crisp, and full-range.
+
+Pick a per-Deck **voice quality tier** to match the room and your connection:
+
+<div align="center">
+
+| Tier | Feel |
+|:---:|:---|
+| **Standard** | Lean and reliable — easy on bandwidth for big rooms or thin connections. |
+| **Balanced** | The sweet spot — rich voice with sane overhead. |
+| **High** | Studio-clear, **up to ~320 kbps** Opus. The good headphones finally matter. |
+
+</div>
+
+The chips live right on each Deck's config, so the room owner sets the bar — no global compromise.
+
+<div align="center">
+<img src="docs/shots/09-deck-config.png" width="820" alt="Per-Deck VOICE QUALITY chips — Standard, Balanced, High — and the Dropship toggle" />
+</div>
+
+Pair it with the audio device settings to lock in your exact mic and output, and the noise
+suppression keeps the keyboard clatter and fan hum out of the channel.
+
+<div align="center">
+<img src="docs/shots/04b-settings-audio.png" width="820" alt="Audio device settings — input/output selection and noise suppression" />
+</div>
+
+---
+
 ## 🌿 Signals & Echoes — chat that branches
 
 Text channels are **Signals**. When a thread needs its own space, reply in **Echoes** — branching
@@ -183,6 +216,42 @@ decide whether guests from other Ships can fall in. Per-Deck control, not one-si
 
 <div align="center">
 <img src="docs/shots/09-deck-config.png" width="820" alt="Per-Deck configuration — voice quality and Dropship toggle" />
+</div>
+
+---
+
+## ⚖️ Why Shipfall beats the alternatives
+
+The usual setup is a stack of apps that don't talk to each other: one for voice, another for
+streaming, and a subscription to make either of them actually good. Shipfall folds all of it into
+one place — and the parts other apps charge for are just *on*.
+
+- **2K60 game streaming, free.** Crisp **1440p60** screen-share is built in. No Nitro-style
+  paywall to unlock real stream quality — everyone shares in 2K60.
+- **Watch together, talk over it.** Streams play **right inside the Deck** with a shared chat. You
+  don't bounce the squad off to a separate streaming site to watch each other play.
+- **High-bitrate audio for everyone.** Voice up to **~320 kbps** with selectable quality tiers —
+  not gated behind a subscription.
+- **Privacy on the wire.** All media is **relayed through the server**, so members never see each
+  other's IP addresses. Peer-to-peer voice apps leak them. And there's **no email** to sign up.
+- **Dropship.** Guest into a friend's voice room on **another server** — cross-server voice the
+  mainstream apps simply don't do.
+- **A world you can see.** The **Constellation** shows who's in voice or streaming across *all*
+  your servers at a glance — presence as a living map, not a green dot.
+- **Zero setup, zero ads, no data harvesting.** We host it for you. Download, sign in, play.
+
+<div align="center">
+
+| | **Shipfall** | Voice apps | Streaming sites |
+|---|:---:|:---:|:---:|
+| **Game streaming quality** | 2K60, free | Capped — pay to unlock | High, but a separate app |
+| **Watch together** | Inline, in the Deck | Limited / paywalled | Yes, but you leave the room |
+| **Audio bitrate** | Up to ~320 kbps, free | Compressed / paid tiers | N/A |
+| **IP privacy** | Server-relayed, hidden | Often P2P — IP exposed | N/A |
+| **Cross-server voice** | Dropship | No | No |
+| **Signup** | No email | Email required | Email / account required |
+| **Ads & data harvesting** | None | Varies | Heavy |
+
 </div>
 
 ---
